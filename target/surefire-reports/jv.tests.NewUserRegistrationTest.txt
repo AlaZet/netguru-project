@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: jv.tests.NewUserRegistrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.315 s - in jv.tests.NewUserRegistrationTest
