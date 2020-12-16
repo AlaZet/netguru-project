@@ -31,7 +31,7 @@ public class RegistrationForm extends DikiFrontPage {
     @FindBy(className = "buttonText")
     private WebElement createAccountButton;
 
-    @FindBy(className = "msgboxdivText")
+    @FindBy(xpath = "//*[contains(text(), 'Wpisane imię')]")
     private WebElement errorMessage;
 
     public RegistrationForm (org.openqa.selenium.WebDriver driver) {
