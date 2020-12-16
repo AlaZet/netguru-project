@@ -1,7 +1,7 @@
 jv/setup/PageBase.class
-jv/tests/NewUserRegistrationTest.class
 jv/tests/LoginTest.class
 jv/setup/ChromeSetup.class
+jv/tests/ShortNameRegistrationTest.class
 jv/modules/LogInForm.class
 jv/modules/RegistrationForm.class
 jv/modules/Menu.class

@@ -36,14 +36,13 @@ public class RegistrationForm extends DikiFrontPage {
 
     public RegistrationForm (org.openqa.selenium.WebDriver driver) {
         super(driver);
-
     }
 
     public void fillRegistrationFormAndContinue() {
         Random randomNumber = new Random();
         String name = ".";
-        String testSurname = "Borderek";
-        String testPassword = "Test_Password1!";
+        String testSurname = "Orion";
+        String testPassword = "lubi_treatsy!";
         String letters = "abcdefghijklmnoprstuwxyz";
 
         for(int i = 0, n = 8; i < n; ++i)

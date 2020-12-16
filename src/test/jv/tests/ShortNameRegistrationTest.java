@@ -1,17 +1,17 @@
 package jv.tests;
 
 import org.junit.Test;
-import jv.setup.ChromeSetup;
 import jv.modules.Menu;
+import jv.setup.ChromeSetup;
 import jv.modules.DikiFrontPage;
 import jv.modules.RegistrationForm;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class NewUserRegistrationTest extends ChromeSetup
-{
+public class ShortNameRegistrationTest extends ChromeSetup {
+    
     @Test
-    public void checkNewUserRegistration() {
+    public void checkShortNameRegistration() {
 
         DikiFrontPage dikiFrontPage = new DikiFrontPage(driver);
         dikiFrontPage.loadFrontPage();

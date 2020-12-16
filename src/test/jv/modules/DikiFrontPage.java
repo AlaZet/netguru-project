@@ -1,15 +1,16 @@
 package jv.modules;
 
 import jv.setup.PageBase;
+import jv.modules.RegistrationForm;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import jv.modules.RegistrationForm;
 
 
 public class DikiFrontPage extends PageBase {
+
     String baseURL = "https://diki.pl";
 
     @FindBy(id = "thinHeaderMenuIcon")
@@ -36,5 +37,4 @@ public class DikiFrontPage extends PageBase {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.visibilityOf(userAvatar));
     }
-
 }

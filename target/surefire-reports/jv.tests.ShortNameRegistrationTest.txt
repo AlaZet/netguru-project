@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: jv.tests.NewUserRegistrationTest
+Test set: jv.tests.ShortNameRegistrationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.315 s - in jv.tests.NewUserRegistrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.946 s - in jv.tests.ShortNameRegistrationTest

@@ -1,15 +1,14 @@
 package jv.tests;
 
 import org.junit.Test;
-import jv.setup.ChromeSetup;
 import jv.modules.Menu;
 import jv.modules.LogInForm;
+import jv.setup.ChromeSetup;
 import jv.modules.DikiFrontPage;
-import jv.modules.RegistrationForm;
 import org.openqa.selenium.WebDriver;
 
-public class LoginTest extends ChromeSetup
-{
+public class LoginTest extends ChromeSetup {
+
     @Test
     public void checkLogIn() {
 

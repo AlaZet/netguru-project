@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+
 public class Menu extends DikiFrontPage {
 
     @FindBy(partialLinkText = "konto")
@@ -16,11 +17,11 @@ public class Menu extends DikiFrontPage {
         super(driver);
     }
 
-    public void clickRegisterButton(){
+    public void clickRegisterButton() {
         registerButton.click();
     }
 
-    public void clickLogiInButton(){
+    public void clickLogiInButton() {
         logInButton.click();
     }
 }
