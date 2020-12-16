@@ -1,5 +1,6 @@
 package jv.setup;
 
+import java.io.File;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -13,7 +14,17 @@ public class ChromeSetup {
 
     @BeforeClass
     public static void setUp()  {
-        System.setProperty("webdriver.chrome.driver","utils/chromedriver");
+        File bin = new File ("/usr/bin/chromedriver");
+        if(bin.exists()) {
+            // For Linux:
+            System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+        }
+        else
+        {
+            // For MacOS:
+            System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
+        }
+        
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
